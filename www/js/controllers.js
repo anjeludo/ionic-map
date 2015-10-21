@@ -62,7 +62,7 @@ angular.module('starter.controllers', [])
     getMarkers: function(){
  
       return $http
-            .get("https://www.alsa.es/obt/info/mapa/assets/php/cargarPosiciones.php")
+            .get("https://www.")
             .then(function(response) {
               markers = response;
               return markers;
